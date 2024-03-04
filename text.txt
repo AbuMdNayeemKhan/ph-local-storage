@@ -1,0 +1,21 @@
+local storage is a storage for storing data by locally in browser.
+
+locl storage have key (name) value(data)
+
+local storage key and value always will be string
+
+if we set array in local storage that will change to a string
+
+if we set object in local storage that never will be a string
+
+
+
+localStorage.clear use for delete everything
+localStorage.remove(value) user for remove all data
+localStorage.getItems(key) use of get a singel data
+localStorage.setItems('key', 'value') user for get all data form your local storage.
+
+
+if we need to se a object in local storage first you convert object to an string JSON.stringify()
+
+if we need to set a string to and object you should convert it by JSON.parse(name)
